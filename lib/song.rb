@@ -18,7 +18,7 @@ class Song
     @artist = Artist.find_or_create_by_name(@artist)
     @song.artist = @artist
      binding.pry
-    song
+    @song
   end
 
   # song = self.new
